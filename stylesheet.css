@@ -9,17 +9,16 @@ body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 832px;
-    height: 832px;
+    width: 500px;
+    height: 500px;
     flex-grow: 1;
+    border: 1px solid black;
 }
 
-.gridDiv {
+.row, .col{
     display: flex;
-    /* border: 1px solid black; */
     flex-grow: 1;
-    
-
+    flex-direction: column;
 }
 
 .hovered {
