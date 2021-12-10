@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 832px;
+    height: 832px;
+    flex-grow: 1;
+}
+
+.gridDiv {
+    display: flex;
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    
+
+}
+
+.hovered {
+    background-color: red;
+}
